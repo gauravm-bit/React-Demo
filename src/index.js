@@ -8,11 +8,7 @@ import Avatar from './Avatar';
 
 ReactDOM.render(
   <React.StrictMode>
-    <Avatar id="1" name="Kunal" work="VueJs,Frontend" />
-    <Avatar id="2" name="Pravin" work="Mean,Fullstack" />
-    <Avatar id="3" name="Rishi" work="Java,Testing"/>
-    <Avatar id="4" name="Gaurav" work="ReactJs,Frontend"/>
-    <Avatar id="5" name="Akshay" work="VueJs,Frontend"/>
+    <Avatar/>
   </React.StrictMode>,
   document.getElementById('root')
 );
