@@ -3,31 +3,32 @@ import './Avatar.css';
 import AvatarList from './AvatarList';
 import 'tachyons';
 import Avatarlist from './AvatarList';
+import { Component } from 'react';
 
 const Avatar = (props) => {
     const avatarlistarray =[
         {
-            id:1,
+            id:"1",
             name:"Kunal",
             work:"VueJs,Frontend"
         },
         {
-            id:"1",
+            id:"2",
             name:"Pravin",
             work:"MEAN,FullStack"
         },
         {
-            id:"1",
+            id:"3",
             name:"Akshay",
             work:"VueJs,Frontend"
         },
         {
-            id:"1",
+            id:"4",
             name:"Rishi",
             work:"Java,Testing"
         },
         {
-            id:"1",
+            id:"5",
             name:"Gaurav", 
             work:"ReactJs,Frontend"
         }
@@ -37,7 +38,7 @@ const Avatar = (props) => {
                             name={avatarlistarray[i].name}
                             work={avatarlistarray[i ].work}/>
     })
-    return ( <div>
+    return ( <div className="main">
             <h1 className="tc">BrideLabz  </h1>
                 {cards}  
             </div>
